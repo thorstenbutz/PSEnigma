@@ -298,7 +298,7 @@ function translate {
 Clear-Host
 ## USAGE
 @'
-
+  
 #############################################################################################
 Basic Usage (see example below)
  - Create an Enigma-object
