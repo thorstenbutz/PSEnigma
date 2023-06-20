@@ -298,10 +298,13 @@ function translate {
 Clear-Host
 ## USAGE
 @'
+
+#############################################################################################
 Basic Usage (see example below)
  - Create an Enigma-object
  - Call the setup() method configure the machine 
  - Translate $text. You can also encrypt/decrypt with the same settings (self-reciprocal).
+#############################################################################################
 
 ## Example 1: Encrypt
 $testEnigma = [Enigma]::new()
