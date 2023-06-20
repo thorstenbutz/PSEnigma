@@ -303,8 +303,6 @@ Basic Usage (see example below)
  - Call the setup() method configure the machine 
  - Translate $text. You can also encrypt/decrypt with the same settings (self-reciprocal).
 
-
-
 ## Example 1: Encrypt
 $testEnigma = [Enigma]::new()
 $testEnigma.setup(2, (5,2,4),'CZK', (17,09,02), 'KT AJ IV UR NY HZ GD XF PB CQ')
